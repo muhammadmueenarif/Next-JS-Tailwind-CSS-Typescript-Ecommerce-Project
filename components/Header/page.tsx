@@ -2,26 +2,26 @@ import React from "react";
 import { BsFacebook, BsInstagram, BsLinkedin, BsTwitter } from "react-icons/bs";
 const Header = () => {
   return (
-    <div>
-      <div>
-        <div>
-          <div>
-            <div>
+    <div className="border-b border-gray-200 hidden sm:block">
+      <div className="container py-4 p-[15px]">
+        <div className="flex justify-between items-center">
+          <div className="hidden lg:flex gap-1">
+            <div className="header_top__icon_wrapper">
               <BsFacebook />
             </div>
-            <div>
+            <div className="header_top__icon_wrapper">
                 <BsTwitter/>
             </div>
-            <div>
+            <div className="header_top__icon_wrapper">
                 <BsInstagram/>
             </div>
-            <div>
+            <div className="header_top__icon_wrapper">
                 <BsLinkedin/>
             </div>
           </div>
 
           <div className="text-gray-500 text-[12px]"> 
-            <strong>Free Shipping</strong> 
+            <strong>Free Shipping </strong> 
           This Week Order Over - $55 
           </div>
           

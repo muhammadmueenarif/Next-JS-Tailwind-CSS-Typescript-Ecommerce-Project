@@ -1,6 +1,12 @@
 @import "tailwindcss";
 @tailwind utilities;
 
+@layer components {
+  .header_top__icon_wrapper {
+    @apply bg-gray-200 rounded-md p-[6px] text-[14px] cursor-pointer hover:bg-pink-200 hover:text-white;
+  }
+}
+
 /* @theme {
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
