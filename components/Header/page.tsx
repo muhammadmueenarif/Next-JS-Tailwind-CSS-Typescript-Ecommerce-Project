@@ -10,33 +10,33 @@ const Header = () => {
               <BsFacebook />
             </div>
             <div className="header_top__icon_wrapper">
-                <BsTwitter/>
+              <BsTwitter />
             </div>
             <div className="header_top__icon_wrapper">
-                <BsInstagram/>
+              <BsInstagram />
             </div>
             <div className="header_top__icon_wrapper">
-                <BsLinkedin/>
+              <BsLinkedin />
             </div>
           </div>
 
-          <div className="text-gray-500 text-[12px]"> 
-            <strong>Free Shipping </strong> 
-          This Week Order Over - $55 
+          <div className="text-gray-500 text-[12px]">
+            <strong>Free Shipping </strong>
+            This Week Order Over - $55
           </div>
-          
-          <div> 
-            <select name="currency" id="currency">
-            <option value="USD $"> USD $</option>
-            <option value="EUR €"> EUR €</option>
-            <option value="INR ₹"> INR ₹</option>
+
+          <div className="flex gap-4">
+            <select name="currency" id="currency" className="text-grau-500 text-[12px] w-[70px]" >
+              <option value="USD $"> USD $</option>
+              <option value="EUR €"> EUR €</option>
+              <option value="INR ₹"> INR ₹</option>
             </select>
 
-            <select name="language" id="language">
-                <option value="English">English</option>
-                <option value="French">French</option>
+            <select name="language" id="language" className="text-gray-500 text-[12px] w-[80px]">
+              <option value="English">English</option>
+              <option value="French">French</option>
             </select>
-            </div>
+          </div>
         </div>
       </div>
     </div>
